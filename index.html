@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script src="java.js"></script>
+        <div class="container">
+            <div class="header">
+				<h1>Calculator</h1>
+            </div>    
+                    <span class="label"> First number:</span>
+                    <input class="data" type="text" id="num1" required>
+                    <span class="label">Second number:</span>
+                    <input class="data" type="text" id="num2" required>
+                    <span class="label">Third number:</span>
+                    <input class="data" type="text" id="num3" required>
+            
+                <input class="button" type="button" onClick="myFunction()" value="CALCULATE" >
+            
+                <div class="row">
+                    <div class="col-sm-2">
+                        <p class="label"><strong>Maximum:</strong></p>
+                        <p class="label" id="max"></p>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="label"><strong>Minimum:</strong></p>
+                        <p class="label" id="min"></p>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="label"><strong>Average:</strong></p>
+                        <p class="label" id="average"></p>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="label"><strong>Median:</strong></p>
+                        <p class="label" id="median"></p>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="label"><strong>Range:</strong></p>
+                        <p class="label" id="range"></p>
+                    </div>
+                </div>
+        </div>
+</body>
+</html>
